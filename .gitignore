@@ -1,0 +1,16 @@
+# Fișiere de sistem
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Configurație IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Secrete — nu se urcă niciodată
+.env
+*-key.json
+service-account*.json

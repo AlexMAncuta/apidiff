@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+.venv-*/
+
+# Environment variables and credentials
+.env
+*.json
+!knowledge/*.json
+
+# Python cache and generated files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Sesiuni ADK locale
+.adk/
+*.db
